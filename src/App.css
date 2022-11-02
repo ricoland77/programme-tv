@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.container {
+  font-family: "Roboto", sans-serif;
+
+  background-color: antiquewhite;
+  max-width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-logo {
+  background-color: aliceblue;
+  height: 15vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  height: 6vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.program {
+  padding: 25px 0px;
+  border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+.hourImg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.hourImg img {
+  border-radius: 5px;
+}
+
+.hourImg p {
+  font-weight: bold;
+  margin-top: 4vh;
+}
+
+.text-prog h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-prog p {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.direct p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.direct {
+  display: flex;
+  gap: 20px;
+}
+
+.red-direct {
+  color: red;
 }
